@@ -1,0 +1,26 @@
+{
+    "name": "websockets",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon server/main.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/matiborr/websockets.git"
+    },
+    "author": "Matias Borrazas",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/matiborr/websockets/issues"
+    },
+    "homepage": "https://github.com/matiborr/websockets#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "socket.io": "^2.2.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.1"
+    }
+}
